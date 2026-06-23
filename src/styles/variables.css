@@ -1,0 +1,22 @@
+:root{
+    --color-white: #FFF;
+    --color-black: #232323;
+    --color-green: #E2F163;
+    --color-purple: #896CFE;
+    --color-purple-light: #B3A0FF;
+
+    --border-radius: 15px;
+    --border-radius-small: 13px;
+    --border-radius-small-extra: 10px;
+    --border-radius-big: 50px;
+
+    --border: 1px solid var(--color-white);
+
+    --container-width: 323px;
+    --container-padding-x: 34px;
+
+    --transition-duration: 0.2s;
+
+    --font-family-accent: 'Poppins', sans-serif;
+    --font-family-base: 'League Spartan', sans-serif;
+}

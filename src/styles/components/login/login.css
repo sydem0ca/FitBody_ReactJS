@@ -1,0 +1,84 @@
+.login__screen, .signup__screen, .setguard__screen{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.login__body{
+    height: 87%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    row-gap: 20px;
+
+}
+
+.setguard__body{
+    height: 75%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    row-gap: 40px;
+
+}
+
+.login__header{
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+
+    text-align: center;
+    padding-inline: var(--container-padding-x);
+}
+
+.login__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.login__list{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 16px;
+}
+
+.footer__extra .button-small{
+    margin-left: 5px;
+}
+
+.user__rools .button-small{
+    margin-inline: 5px;
+}
+
+.info__body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 15px;
+}
+
+.info__item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 5px;
+    
+}
+
+.info__body .button-small{
+    color: var(--color-black);
+}
+
+.user__rools{
+    text-align: center;
+}
